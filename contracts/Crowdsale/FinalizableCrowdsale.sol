@@ -24,7 +24,6 @@ contract FinalizableCrowdsaleContract is
         public
         AllowanceCrowdsale(tokenWallet)
         TimedCrowdsale(openingTime, closingTime)
-        FinalizableCrowdsale()
         Crowdsale(rate, wallet, token)
     {}
 
