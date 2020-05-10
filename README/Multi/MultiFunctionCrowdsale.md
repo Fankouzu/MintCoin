@@ -20,8 +20,6 @@ uint256 cap               // 封顶数量,单位是wei
 ```
 ### 在布署众筹合约之后需要执行ERC20的方法
 ```javascript
-//在布署之后必须将发送者账户中的代币批准给众筹合约
-token.approve(crowdsale.address, SOME_TOKEN_AMOUNT);
 //添加众筹合约的铸造权
 token.addMinter(crowdsale.address);        
 //撤销当前账户的铸造权
