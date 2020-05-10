@@ -16,7 +16,6 @@ module.exports = function (deployer, network, accounts) {
       rate,                                 // 兑换比例
       accounts[0],                          // 接收ETH受益人地址
       MultiFunctionCrowdsaleERC20.address,  // 代币地址
-      accounts[0],                          // 代币从这个地址发送
       Math.ceil(new Date().getTime() / 1000) + 60,  //众筹开始时间
       Math.ceil(new Date().getTime() / 1000) + 600, //众筹结束时间
       goal,                                         //众筹目标

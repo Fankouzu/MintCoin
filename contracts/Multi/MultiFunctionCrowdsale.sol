@@ -43,7 +43,6 @@ contract MultiFunctionCrowdsale is
         uint256 rate, // 兑换比例
         address payable wallet, // 接收ETH受益人地址
         IERC20 token, // 代币地址
-        address tokenWallet, // 代币从这个地址发送
         uint256 openingTime, // 众筹开始时间
         uint256 closingTime, // 众筹结束时间
         uint256 goal, // 众筹目标
@@ -54,7 +53,6 @@ contract MultiFunctionCrowdsale is
         Crowdsale(rate, wallet, token)
         TimedCrowdsale(openingTime, closingTime)
         RefundableCrowdsale(goal)
-        RefundablePostDeliveryCrowdsale()
     {}
 
     function _finalization() internal {

@@ -30,7 +30,6 @@ describe("多功能众筹合约", function () {
             rate,                                       //兑换比例1ETH:100ERC20
             sender,                                     //接收ETH受益人地址
             ERC20Instance.address,                      //代币地址
-            owner,                                      //代币从这个地址发送
             openingTime,                                //众筹开始时间
             closingTime,                                //众筹结束时间
             ether(goal),                                //众筹目标

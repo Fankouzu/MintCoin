@@ -13,7 +13,6 @@
 uint256 rate              //兑换比例1ETH兑换多少ERC20代币
 address payable wallet    //接收ETH受益人地址
 IERC20 token              //代币地址
-address tokenWallet       //代币从这个地址发送
 uint256 openingTime       // 众筹开始时间
 uint256 closingTime       // 众筹结束时间
 uint256 goal              // 众筹目标
@@ -40,11 +39,7 @@ rate() public view returns (uint256)
 weiRaised() public view returns (uint256)         
 //购买代币,代币发送给指定地址          
 buyTokens(address beneficiary) public nonReentrant payable  
-//特殊方法
-//返回代币现存地址
-tokenWallet() public view returns (address)                 
-//检查配额中剩余的代币数量
-remainingTokens() public view returns (uint256)   
+//特殊方法   
 //调用此方法可以从调用者账户中销毁代币
 burn(uint256 amount) public 
 //调用此方法可以从指定地址销毁代币,代币从发送者的批准中扣除
