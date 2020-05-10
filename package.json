@@ -34,6 +34,7 @@
   "mocha": {
     "timeout": 100000,
     "useColors": true,
+    "comment":"这里是彩蛋:下面这一行改成nyan然后再运行npm run test试一下",
     "reporter": "spec"
   },
   "keywords": [],
