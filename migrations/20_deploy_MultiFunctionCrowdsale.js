@@ -23,7 +23,6 @@ module.exports = function (deployer, network, accounts) {
     ).then(() => {
       MultiFunctionCrowdsaleERC20Instance.addMinter(MultiFunctionCrowdsale.address);
       MultiFunctionCrowdsaleERC20Instance.renounceMinter();
-      MultiFunctionCrowdsaleERC20Instance.approve(MultiFunctionCrowdsale.address, web3.utils.toWei(totalSupply.toString(), 'ether'));
     });
   })
 };

@@ -39,9 +39,6 @@ describe("多功能众筹合约", function () {
     });
 });
 describe("布署后首先执行", function () {
-    it('将代币批准给众筹合约', async function () {
-        await ERC20Instance.approve(CrowdsaleInstance.address, ether(totalSupply.toString()), { from: owner });
-    });
     it('添加众筹合约的铸造权: addMinter()', async function () {
         await ERC20Instance.addMinter(CrowdsaleInstance.address, { from: owner });
     });
