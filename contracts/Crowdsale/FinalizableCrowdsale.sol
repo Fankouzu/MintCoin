@@ -3,14 +3,12 @@ pragma solidity ^0.5.0;
 import "@openzeppelin/contracts/crowdsale/Crowdsale.sol";
 import "@openzeppelin/contracts/crowdsale/emission/AllowanceCrowdsale.sol";
 import "@openzeppelin/contracts/crowdsale/distribution/FinalizableCrowdsale.sol";
-import "@openzeppelin/contracts/crowdsale/validation/TimedCrowdsale.sol";
 
 
 //可终结的众筹
 contract FinalizableCrowdsaleContract is
     Crowdsale,
     AllowanceCrowdsale,
-    TimedCrowdsale,
     FinalizableCrowdsale
 {
     constructor(
