@@ -2,7 +2,6 @@ pragma solidity ^0.5.0;
 
 import "@openzeppelin/contracts/crowdsale/Crowdsale.sol";
 import "@openzeppelin/contracts/crowdsale/emission/AllowanceCrowdsale.sol";
-import "@openzeppelin/contracts/crowdsale/distribution/RefundableCrowdsale.sol";
 import "@openzeppelin/contracts/crowdsale/distribution/RefundablePostDeliveryCrowdsale.sol";
 
 
@@ -26,7 +25,6 @@ contract RefundableCrowdsaleContract is
         AllowanceCrowdsale(tokenWallet)
         TimedCrowdsale(openingTime, closingTime)
         RefundableCrowdsale(goal)
-        RefundablePostDeliveryCrowdsale()
     {}
 
     function _finalization() internal {

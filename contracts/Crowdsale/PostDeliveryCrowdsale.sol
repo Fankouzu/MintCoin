@@ -3,14 +3,12 @@ pragma solidity ^0.5.0;
 import "@openzeppelin/contracts/crowdsale/Crowdsale.sol";
 import "@openzeppelin/contracts/crowdsale/emission/AllowanceCrowdsale.sol";
 import "@openzeppelin/contracts/crowdsale/distribution/PostDeliveryCrowdsale.sol";
-import "@openzeppelin/contracts/crowdsale/validation/TimedCrowdsale.sol";
 
 
 //到期后交付的众筹
 contract PostDeliveryCrowdsaleContract is
     Crowdsale,
     AllowanceCrowdsale,
-    TimedCrowdsale,
     PostDeliveryCrowdsale
 {
     constructor(
@@ -24,7 +22,6 @@ contract PostDeliveryCrowdsaleContract is
         public
         AllowanceCrowdsale(tokenWallet)
         TimedCrowdsale(openingTime, closingTime)
-        PostDeliveryCrowdsale()
         Crowdsale(rate, wallet, token)
     {}
 }
