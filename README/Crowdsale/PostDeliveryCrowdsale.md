@@ -54,10 +54,6 @@ closingTime() public view returns (uint256)
 isOpen() public view returns (bool)
 //返回众筹是否结束
 hasClosed() public view returns (bool)
-//返回合约是否已经结束
-finalized() public view returns (bool)
-//触发合约结束方法
-finalize() public
 //返回存储在合约上的ERC20数量
 balanceOf(address account) public view returns (uint256)
 //当众筹结束后可以提取ERC20
