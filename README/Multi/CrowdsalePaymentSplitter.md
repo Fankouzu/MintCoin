@@ -24,7 +24,7 @@ totalShares() public view returns (uint256)
 totalReleased() public view returns (uint256) 
 //返回指定账户的股份数额
 shares(address account) public view returns (uint256)
-//释放指定账户已释放的数额
+//返回指定账户已释放的数额
 released(address account) public view returns (uint256)
 //返回股东账户地址
 payee(uint256 index) public view returns (address)
