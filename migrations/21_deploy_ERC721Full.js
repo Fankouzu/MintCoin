@@ -1,4 +1,3 @@
-//固定总量代币
 const ERC721FullContract = artifacts.require("ERC721FullContract"); 
 
 module.exports = function(deployer) {
