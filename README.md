@@ -21,7 +21,7 @@
 - [到期后交付的众筹](./README/Crowdsale/PostDeliveryCrowdsale.md)
 - [不成功退款的众筹](./README/Crowdsale/RefundableCrowdsale.md)
 
-### 多功能代币
+### 多功能合约
 - [多功能ERC20代币,可增发,可销毁,可暂停,有封顶](./README/Multi/ERC20MultiFunction.md)
 - [多功能众筹合约:可增发,可销毁,有封顶,有配额,可暂停,有时限,白名单,成功后交付,不成功退款](./README/Multi/MultiFunctionCrowdsale.md)
 - [股份制受益人合约](./README/Multi/CrowdsalePaymentSplitter.md)
