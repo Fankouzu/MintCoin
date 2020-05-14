@@ -45,7 +45,7 @@ describe("注册ERC1820接口", function () {
     });
     it('验证代币发送接口: getInterfaceImplementer() ERC777TokensSender', async function () {
         assert.equal(TokensSenderInstance.address, await ERC1820RegistryInstance.getInterfaceImplementer(
-            TokensSenderInstance.address,
+            owner,
             makeInterfaceId.ERC1820('ERC777TokensSender')
         ))
     });
