@@ -93,7 +93,7 @@ describe("测试ERC721合约", async function () {
     ERC721.tokenByIndex('2', '3', '根据代币索引获取代币id');
     ERC721.tokenByIndex('10', false, '根据错误的代币索引获取代币id', true, /ERC721Enumerable: global index out of bounds/);
 });
-describe("测试众筹合约的暂停管理方法", function () {
+describe("测试合约的暂停管理方法", function () {
     ERC721.paused(false, '验证合约未暂停');
     ERC721.pause(owner, '暂停合约');
     ERC721.paused(true, '验证合约已暂停');
