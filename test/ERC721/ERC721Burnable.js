@@ -39,13 +39,13 @@ describe("测试ERC721合约", async function () {
     ERC721.approve(sender, owner, '999', '批准错误的代币', true, /ERC721: owner query for nonexistent token/);
     ERC721.approve(sender, owner, false, '批准代币');
 
-    ERC721.getApproved(sender, '获取代币批准的地址');
-    ERC721.getApproved(sender, '获取错误的代币的批准地址', true, /ERC721: approved query for nonexistent token/);
+    ERC721.getApproved(sender, false, '获取代币批准的地址');
+    ERC721.getApproved(sender, "999", '获取错误的代币的批准地址', true, /ERC721: approved query for nonexistent token/);
 
     ERC721.transferFrom(sender, owner, receiver, false, '发送批准');
     ERC721.transferFrom(sender, owner, receiver, '999', '发送错误的tokenId批准', true, /ERC721: operator query for nonexistent token/);
     ERC721.ownerOf(receiver, false, '账户的代币id');
-    ERC721.getApproved(constants.ZERO_ADDRESS, '验证代币批准的地址为0x0');
+    ERC721.getApproved(constants.ZERO_ADDRESS, false, '验证代币批准的地址为0x0');
     ERC721.transferFrom(sender, owner, receiver, false, '重复发送批准错误', true, /ERC721: transfer caller is not owner nor approved/);
 
     ERC721.awardItem(receiver, tokenURI, '再次添加代币');
