@@ -50,7 +50,7 @@ describe("测试ERC721合约", async function () {
     ERC721.approve(sender, receiver, false, '批准代币');
 
     ERC721.getApproved(sender, false, '获取代币批准的地址');
-    ERC721.getApproved(sender, "999", '获取错误的代币的批准地址', true, /ERC721: approved query for nonexistent token/);
+    ERC721.getApproved(sender, "1", '获取错误的代币的批准地址', true, /ERC721: approved query for nonexistent token/);
 
     ERC721.transferFrom(sender, receiver, purchaser, false, '发送批准');
     ERC721.transferFrom(sender, receiver, purchaser, '10', '发送错误的tokenId批准', true, /ERC721: operator query for nonexistent token/);
