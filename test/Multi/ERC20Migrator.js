@@ -13,7 +13,7 @@ let balanceBefore = [];
 
 migrateBalance = async (account) => {
     await ERC20Instance.approve(ERC20MigratorInstance.address, balanceBefore[account], { from: account });
-    await ERC20MigratorInstance.migrate(account,balanceBefore[account]);
+    await ERC20MigratorInstance.migrate(account, balanceBefore[account]);
 }
 
 assertBalanceAfter = async (account) => {
@@ -57,7 +57,7 @@ describe("布署后首先执行", function () {
         });
     });
     it('开始迁移: beginMigration()', async function () {
-        await ERC20MigratorInstance.beginMigration(ERC20WithMintableInstance.address,{from:owner});
+        await ERC20MigratorInstance.beginMigration(ERC20WithMintableInstance.address, { from: owner });
     });
 });
 describe("测试ERC20合约基本信息", function () {
@@ -69,10 +69,10 @@ describe("迁移合约基本信息", function () {
     });
 });
 describe("将旧合约代币分配给一些账户", function () {
-    ERC20.transfer(owner, sender, (EthValue*5).toString(), '代币发送给sender');
-    ERC20.transfer(owner, receiver, (EthValue*10).toString(), '代币发送给receiver');
-    ERC20.transfer(owner, purchaser, (EthValue*15).toString(), '代币发送给purchaser');
-    ERC20.transfer(owner, beneficiary, (EthValue*25).toString(), '代币发送给beneficiary');
+    ERC20.transfer(owner, sender, (EthValue * 5).toString(), '代币发送给sender');
+    ERC20.transfer(owner, receiver, (EthValue * 10).toString(), '代币发送给receiver');
+    ERC20.transfer(owner, purchaser, (EthValue * 15).toString(), '代币发送给purchaser');
+    ERC20.transfer(owner, beneficiary, (EthValue * 25).toString(), '代币发送给beneficiary');
     it('记录账户旧合约余额: balanceOf()', async function () {
         balanceBefore[owner] = await ERC20Instance.balanceOf(owner);
         balanceBefore[sender] = await ERC20Instance.balanceOf(sender);
@@ -86,6 +86,7 @@ describe("开始迁移", function () {
         assert.equal(ERC20WithMintableInstance.address, await ERC20MigratorInstance.newToken());
     });
     it('迁移owner账户全部余额方法: migrateAll()', async function () {
+        await ERC20Instance.approve(ERC20MigratorInstance.address, ether(totalSupply.toString()), { from: owner });
         await ERC20MigratorInstance.migrateAll(owner);
     });
     it('迁移指定账户余额方法: migrate()', async function () {
