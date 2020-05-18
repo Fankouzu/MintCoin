@@ -47,9 +47,6 @@ describe("代币迁移合约", function () {
     });
 });
 describe("布署后首先执行", function () {
-    it('将代币批准给众筹合约', async function () {
-        await ERC20Instance.approve(ERC20MigratorInstance.address, ether(totalSupply.toString()), { from: owner });
-    });
     it('添加众筹合约的铸造权: addMinter()', async function () {
         await ERC20WithMintableInstance.addMinter(ERC20MigratorInstance.address, { from: owner });
     });
