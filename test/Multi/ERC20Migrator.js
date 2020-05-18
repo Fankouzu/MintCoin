@@ -56,6 +56,9 @@ describe("布署后首先执行", function () {
             account: owner
         });
     });
+    it('开始迁移: beginMigration()', async function () {
+        await ERC20MigratorInstance.beginMigration(ERC20WithMintableInstance.address,{from:owner});
+    });
 });
 describe("测试ERC20合约基本信息", function () {
     ERC20.detail();
@@ -79,9 +82,6 @@ describe("将旧合约代币分配给一些账户", function () {
     });
 });
 describe("开始迁移", function () {
-    it('开始迁移: beginMigration()', async function () {
-        await ERC20MigratorInstance.beginMigration(ERC20WithMintableInstance.address,{from:owner});
-    });
     it('验证新约地址: newToken()', async function () {
         assert.equal(ERC20WithMintableInstance.address, await ERC20MigratorInstance.newToken());
     });
