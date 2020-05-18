@@ -47,7 +47,7 @@ describe("代币迁移合约", function () {
     });
 });
 describe("布署后首先执行", function () {
-    it('添加众筹合约的铸造权: addMinter()', async function () {
+    it('添加迁移合约的铸造权: addMinter()', async function () {
         await ERC20WithMintableInstance.addMinter(ERC20MigratorInstance.address, { from: owner });
     });
     it('撤销发送者的铸造权: renounceMinter()', async function () {
