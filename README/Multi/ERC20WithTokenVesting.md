@@ -23,7 +23,7 @@ bool revocable              //是否可撤销
 ```
 ### 布署合约之后执行
 ```javascript
-//在布署之后所有旧合约的用户必须将账户中的代币批准给迁移合约
+//在布署之后需要将锁仓的代币传送给分期释放合约
 token.transfer(ERC20WithTokenVesting.address, SOME_TOKEN_AMOUNT);
 ```
 ### 调用方法
