@@ -9,6 +9,8 @@
 
 > 有时限的众筹是指设置了众筹的开始时间和结束时间
 
+[Bilibili视频](https://www.bilibili.com/video/BV1m5411s76X/)
+
 [合约文件: TimedCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Crowdsale/TimedCrowdsale.sol)
 
 [测试脚本: TimedCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/TimedCrowdsale.js)

@@ -8,6 +8,8 @@
 
 >以上两点已经在布署脚本中设置好了
 
+[Bilibili视频](https://www.bilibili.com/video/BV1ca4y1i7Aq/)
+
 [合约文件: ERC20WithTokenTimelock.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/ERC20/ERC20WithTokenTimelock.sol)
 
 [测试脚本: ERC20WithTokenTimelock.js](https://github.com/Fankouzu/MintCoin/blob/master/test/ERC20/ERC20WithTokenTimelock.js)

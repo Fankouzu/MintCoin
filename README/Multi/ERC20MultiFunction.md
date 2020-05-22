@@ -2,6 +2,7 @@
 
 ## 多功能ERC20代币,可增发,可销毁,可暂停,有封顶
 
+[Bilibili视频](https://www.bilibili.com/video/BV1Wf4y1U71N/)
 
 [合约文件: ERC20MultiFunction.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Multi/ERC20MultiFunction.sol)
 

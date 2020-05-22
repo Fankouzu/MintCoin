@@ -1,5 +1,7 @@
 # MintCoin崔棉大师的花式发币法
 
+这是一个根据Openzeppelin制作的合约库,是Openzeppelin合约库的进一步简化和使用范例.并且配合每一个合约制作了详细的测试脚本.同时制作了一套视频课程详细讲解了合约的实现原理.
+
 ### 发行ERC20代币
 - [固定总量代币](./README/ERC20/ERC20FixedSupply.md)
 - [可销毁代币](./README/ERC20/ERC20WithBurnable.md)

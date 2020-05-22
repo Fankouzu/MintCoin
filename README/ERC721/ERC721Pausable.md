@@ -3,6 +3,8 @@
 ## 可暂停的ERC721代币
 > ERC721代币属于非同质化代币，全功能的ERC721代币包含ERC721的元数据和可枚举功能.
 
+[Bilibili视频](https://www.bilibili.com/video/BV1SK411W7Ph/)
+
 [合约文件: ERC721Pausable.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/ERC721/ERC721Pausable.sol)
 
 [测试脚本: ERC721Pausable.js](https://github.com/Fankouzu/MintCoin/blob/master/test/ERC721/ERC721Pausable.js)

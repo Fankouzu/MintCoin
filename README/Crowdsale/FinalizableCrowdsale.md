@@ -9,6 +9,8 @@
 
 > 可终结的众筹是指在有时限的众筹的基础上增加了结束众筹的方法
 
+[Bilibili视频](https://www.bilibili.com/video/BV1E54y1D77H/)
+
 [合约文件: FinalizableCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Crowdsale/FinalizableCrowdsale.sol)
 
 [测试脚本: FinalizableCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/FinalizableCrowdsale.js)

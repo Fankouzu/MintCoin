@@ -4,6 +4,8 @@
 > ERC721代币属于非同质化代币，全功能的ERC721代币包含ERC721的元数据和可枚举功能.
 > 可铸造的ERC721代币拥有一个公开的铸造方法,只有铸造管理员可以调用.
 
+[Bilibili视频](https://www.bilibili.com/video/BV19e411p7bW/)
+
 [合约文件: ERC721Mintable.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/ERC721/ERC721Mintable.sol)
 
 [测试脚本: ERC721Mintable.js](https://github.com/Fankouzu/MintCoin/blob/master/test/ERC721/ERC721Mintable.js)

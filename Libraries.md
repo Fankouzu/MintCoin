@@ -43,8 +43,8 @@
 - [DoubleLinkedList.sol](https://github.com/HQ20/contracts/blob/master/contracts/lists/DoubleLinkedList.sol),双重链接列表。
 - [StateMachine.sol](https://github.com/HQ20/contracts/tree/master/contracts/state),状态机的简单实现。
 - [Heap.sol](https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/common/libraries/Heap.sol),简单的堆实现。
-- [LinkedHashMap.sol](https://github.com/cfelde/AKAP-utils/blob/master/contracts/collections/LinkedHashMap.sol)
-- [HitchensOrderStatisticsTree.sol](https://github.com/rob-Hitchens/OrderStatisticsTree/blob/master/contracts/HitchensOrderStatisticsTree.sol)
+- [LinkedHashMap.sol](https://github.com/cfelde/AKAP-utils/blob/master/contracts/collections/LinkedHashMap.sol),实现链接地址的哈希表,[由AKA提供](https://akap.me/docs/components/)
+- [HitchensOrderStatisticsTree.sol](https://github.com/rob-Hitchens/OrderStatisticsTree/blob/master/contracts/HitchensOrderStatisticsTree.sol),可实现具有订单统计树扩展名的自平衡二进制搜索树
 ### 字符串
 - [strings.sol](https://github.com/Arachnid/solidity-stringutils/blob/master/src/strings.sol),用于Solidity合同的String＆slice实用程序库。
 ### 日期
@@ -66,8 +66,6 @@
 - [AccessControl](https://github.com/HQ20/contracts/tree/master/contracts/access)
 ### 分类
 - [Classifieds](https://github.com/HQ20/contracts/tree/master/contracts/classifieds),如何实现一个简单的分类板。
-### 交易所
-- [Uniswap Exchange](https://github.com/HQ20/contracts/tree/master/contracts/exchange),通过获取Uniswap代码并将其移植回Solidity。这是创建去中心化交易所和市场的绝佳模式。
 ### 发行
 - [Issuance](https://github.com/HQ20/contracts/tree/master/contracts/issuance),Crowdsale的简单版本，旨在说明签发或ICO流程在合同一级的工作方式。它有一些有趣的重用。
 ### 列表

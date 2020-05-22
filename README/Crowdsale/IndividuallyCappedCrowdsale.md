@@ -9,6 +9,8 @@
 
 > 有配额的众筹是指购买代币的账户必须在设置配额后才可以购买代币
 
+[Bilibili视频](https://www.bilibili.com/video/BV1jf4y1U7rU/)
+
 [合约文件: IndividuallyCappedCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Crowdsale/IndividuallyCappedCrowdsale.sol)
 
 [测试脚本: IndividuallyCappedCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/IndividuallyCappedCrowdsale.js)

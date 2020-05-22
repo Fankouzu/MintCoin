@@ -6,6 +6,7 @@
 > 例如:锁仓4年,1年之后开始释放,这样就是start=now();cliffDuration=1 year;duration=4 year;
 > 在`cliffDuration`之后的任何时间都可以调用释放方法,释放数额的计算方法为: 锁仓总数额 * ((当前时间 - 开始时间) / 持续时间) - 已释放数
 
+[Bilibili视频](https://www.bilibili.com/video/BV1vv411z7rz/)
 
 [合约文件: ERC20WithTokenVesting.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Multi/ERC20WithTokenVesting.sol)
 

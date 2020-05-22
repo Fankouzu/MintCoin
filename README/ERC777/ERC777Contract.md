@@ -4,6 +4,9 @@
 
 ### 介绍
 ERC777像ERC20一样，ERC777是可替代令牌的标准，并且专注于在交易令牌时允许更复杂的交互。该标准还带来了多种改进，例如消除了容易引起歧义的decimals，其杀手级功能是发送和接收的钩子。钩子方法是合约中的一个功能，当向其发送和接收代币时会被调用，这意味着账户和合约可以对发送和接收代币做出反应。
+
+[Bilibili视频](https://www.bilibili.com/video/BV1hz4y1d7Zm/)
+
 ### 文件
 [合约文件: ERC777Contract.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/ERC777/ERC777Contract.sol)
 

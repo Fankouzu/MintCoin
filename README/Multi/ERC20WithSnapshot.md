@@ -5,6 +5,7 @@
 
 > 快照由内部Snapshot函数创建，该内部函数将发出Snapshot事件并返回快照ID.要获取快照时的总供应量，请totalSupplyAt使用快照ID 调用该函数.要在快照时获取帐户余额，请balanceOfAt使用快照ID和帐户地址调用该函数.
 
+[Bilibili视频](https://www.bilibili.com/video/BV1vA411t7hy/)
 
 [合约文件: ERC20WithSnapshot.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Multi/ERC20WithSnapshot.sol)
 

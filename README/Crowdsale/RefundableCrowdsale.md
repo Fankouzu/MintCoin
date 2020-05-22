@@ -21,6 +21,8 @@
 7. 没达到众筹目标,在众筹结束后可以退款
 8. 达到众筹目标,在众筹结束后提取代币
 
+[Bilibili视频](https://www.bilibili.com/video/BV1mt4y117Bd/)
+
 [合约文件: RefundableCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Crowdsale/RefundableCrowdsale.sol)
 
 [测试脚本1(到达众筹目标): RefundableCrowdsaleReached.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/RefundableCrowdsaleReached.js)

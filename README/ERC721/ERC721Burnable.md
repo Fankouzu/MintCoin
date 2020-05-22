@@ -4,6 +4,8 @@
 > ERC721代币属于非同质化代币，全功能的ERC721代币包含ERC721的元数据和可枚举功能.
 > 可销毁的ERC721代币是指在全功能的ERC721代币基础上增加了销毁的逻辑,账户只能销毁自己持有的代币.
 
+[Bilibili视频](https://www.bilibili.com/video/BV1Nk4y167zf/)
+
 [合约文件: ERC721Burnable.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/ERC721/ERC721Burnable.sol)
 
 [测试脚本: ERC721Burnable.js](https://github.com/Fankouzu/MintCoin/blob/master/test/ERC721/ERC721Burnable.js)

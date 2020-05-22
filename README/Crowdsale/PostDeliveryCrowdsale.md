@@ -9,6 +9,8 @@
 
 > 到期后交付的众筹是指在有时限的众筹和可终结的众筹的基础上,只有当众筹时间到达后并且触发结束方法,购买者才可以通过withdrawTokens()方法提取到ERC20代币
 
+[Bilibili视频](https://www.bilibili.com/video/BV1Kz4y1d7ZD/)
+
 [合约文件: PostDeliveryCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Crowdsale/PostDeliveryCrowdsale.sol)
 
 [测试脚本: PostDeliveryCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/PostDeliveryCrowdsale.js)

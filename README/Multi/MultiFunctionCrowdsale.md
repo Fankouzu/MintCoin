@@ -2,6 +2,8 @@
 
 ## 多功能众筹合约:可增发,可销毁,有封顶,有配额,可暂停,有时限,白名单,成功后交付,不成功退款
 
+[Bilibili视频](https://www.bilibili.com/video/BV1H5411s7Ft/)
+
 [合约文件: MultiFunctionCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Multi/MultiFunctionCrowdsale.sol)
 
 [测试脚本: MultiFunctionCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Multi/MultiFunctionCrowdsale.js)

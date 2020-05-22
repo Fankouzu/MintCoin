@@ -5,6 +5,8 @@
 
 > 股东和股份比例在布署合约时设定,后期不能更改.
 
+[Bilibili视频](https://www.bilibili.com/video/BV1Uz411q7Mu/)
+
 [合约文件: CrowdsalePaymentSplitter.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Multi/CrowdsalePaymentSplitter.sol)
 
 [测试脚本: CrowdsalePaymentSplitter.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Multi/CrowdsalePaymentSplitter.js)
