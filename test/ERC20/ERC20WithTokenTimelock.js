@@ -84,9 +84,11 @@ describe("测试可锁仓代币的特殊方法", function () {
         await expectRevert(TokenTimelockInstance.release(), 'current time is before release time');
     });
     //测试解锁方法
+    it('验证解锁前余额0: balanceOf()', async function () {
+        assert.equal('0', (await ERC20Instance.balanceOf(receiver)).toString());
+    });
     it('解锁方法: release()', async function () {
         await time.increaseTo(releaseTime + 1);
-        assert.equal('0', (await ERC20Instance.balanceOf(receiver)).toString());
         TokenTimelockInstance.release({ from: owner });
         assert.equal(
             ether(lockAmount),
