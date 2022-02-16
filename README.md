@@ -1,5 +1,6 @@
 # MintCoin崔棉大师的花式发币法
 
+崔棉大师微信号:cuijin,GitHub唯一地址:https://github.com/Fankouzu/MintCoin 其它GitHub仓库均为盗版
 这是一个根据Openzeppelin制作的合约库,是Openzeppelin合约库的进一步简化和使用范例.并且配合每一个合约制作了详细的测试脚本.同时制作了一套视频课程详细讲解了合约的实现原理.
 
 ### 发行ERC20代币
